@@ -1,0 +1,29 @@
+@import "./header.css";
+
+@import "./sections.css";
+
+@import "./footer.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet"
+);
+
+body{
+    color: #213053
+}
+
+a {
+    text-decoration: none;
+    color: #213053;
+}  
+
+button {
+    font-family: 'Raleway', sans—serif;
+    font-size: 15px;
+    color: #fff;
+    background-color: #23a030;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+}  

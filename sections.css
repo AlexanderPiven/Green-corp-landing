@@ -1,0 +1,26 @@
+.section_about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('img/back.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+}
+
+.image_sun {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 60%;
+}
+
+.image_solar_panel {
+    height: 500px;
+    width: 500px;
+}
+.section_form {
+    background-color: #1D263A;
+    color: #fff;
+    padding: 115px 0px;
+    text-align:center;
+}
