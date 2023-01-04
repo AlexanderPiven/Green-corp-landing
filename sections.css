@@ -1,4 +1,4 @@
-.section_about {
+.about {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,9 +18,23 @@
     height: 500px;
     width: 500px;
 }
-.section_form {
+.about_form {
     background-color: #1D263A;
     color: #fff;
-    padding: 115px 0px;
+    padding: 15px 0px;
     text-align:center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.order_forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px 0px;
+    text-align:left;
 }

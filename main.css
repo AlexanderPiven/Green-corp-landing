@@ -1,14 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap");
+
 @import "./header.css";
 
 @import "./sections.css";
 
 @import "./footer.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet"
-);
-
-body{
-    color: #213053
+body {
+    color: #213053;
+    font-size: 18px;
 }
 
 a {
@@ -26,4 +26,5 @@ button {
     cursor: pointer;
     padding: 10px;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+    margin: 5px 0px;
 }  
