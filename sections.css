@@ -5,7 +5,7 @@
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 10px 0px 10px 0px;
+    padding: 115px 20px;
 }
 
 .image_sun {
@@ -30,6 +30,7 @@ form {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 115px 20px;
 }
 .order_forms {
     display: flex;

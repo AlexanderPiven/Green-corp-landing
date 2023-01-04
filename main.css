@@ -7,8 +7,10 @@
 @import "./footer.css";
 
 body {
+    font-family: 'Raleway', sans-serif;
     color: #213053;
     font-size: 18px;
+    margin: 0;
 }
 
 a {
@@ -18,7 +20,8 @@ a {
 
 button {
     font-family: 'Raleway', sans—serif;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 500;
     color: #fff;
     background-color: #23a030;
     border: none;

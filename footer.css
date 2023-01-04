@@ -1,6 +1,17 @@
-.navigation {
+footer {
+padding: 90px 20px;
+}
+
+.footer__links {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
 }
 
 .GreenCorp {
