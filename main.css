@@ -31,3 +31,10 @@ button {
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     margin: 5px 0px;
 }  
+
+button:hover {
+    background-color: #e2f10afa;
+    box-shadow: 0 5px 10px rgba(232, 248, 6, 0.87);
+    transition: background-color 0.5s ease-in;
+    color: black;
+} 

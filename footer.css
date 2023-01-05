@@ -1,21 +1,24 @@
 footer {
-padding: 90px 20px;
+padding: 30px 20px;
 }
 
 .footer__links {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     padding: 0px 20px;
 }
 
 .navigation {
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
-.GreenCorp {
+.navigation__links {
+    padding: 5px 0;
+}
+
+.green__corp {
     text-align:center;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    opacity: 0.75;
 }
