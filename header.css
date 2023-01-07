@@ -1,15 +1,16 @@
 header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 25px;
+    margin: 5px 25px;
 }
 .header_logo {
     height: 30px;
 }
+
 header a {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
     margin-right: 25px;
 }

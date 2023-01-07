@@ -6,6 +6,7 @@
     background-position: center;
     background-size: cover;
     padding: 115px 20px;
+    width: 100%;
 }
 
 .image_sun {
@@ -18,11 +19,12 @@
     height: 500px;
     width: 500px;
 }
-.about_form {
+.form {
     background-color: #1D263A;
     color: #fff;
     padding: 15px 0px;
     text-align:center;
+    padding: 115px 20px;
 }
 
 form {
@@ -30,9 +32,8 @@ form {
     font-weight: 600;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: stretch;
     align-items: center;
-    padding: 115px 20px;
 }
 .order_forms {
     display: flex;
@@ -40,18 +41,25 @@ form {
     justify-content: flex-start;
     margin: 15px 0px;
     text-align:left;
+    height: 25px;
+    width: 300px;
 }
 
 select {
     appearance: none;
     font-size: 16px;
     font-weight: 600;
-    padding: 5px 100px;
+    text-align: center;
     border-radius: 15px;
+    padding: 5px 0px;
 }
 
 input {
     outline: none;
-    padding: 5px 90px;
+    padding: 5px 10px;
     border-radius: 15px;
 }
+
+.form_button {
+    margin-top: 30px;
+    }

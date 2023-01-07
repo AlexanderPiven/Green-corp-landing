@@ -18,6 +18,10 @@ a {
     color: #213053;
 }  
 
+a:hover {
+    box-shadow: 0 5px 30px #547ddd;
+} 
+
 button {
     font-family: 'Raleway', sans—serif;
     font-size: 18px;
@@ -27,9 +31,8 @@ button {
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
-    margin: 5px 0px;
 }  
 
 button:hover {
