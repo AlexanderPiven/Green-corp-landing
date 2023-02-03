@@ -1,5 +1,7 @@
 footer {
-padding: 30px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 90px 20px;
 }
 
 .footer__links {
